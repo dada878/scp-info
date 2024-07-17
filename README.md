@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 特選資訊開源平台 SCP-INFO
 
-## Getting Started
+## 背景
 
-First, run the development server:
+眾所周知，特殊選才不是一個非常大眾的升學管道，也因此網路上的資訊並沒有那麼豐富，即便找得到也都非常的零散。對於想嘗試走特選的學生來說，可能面臨許多的困難，比如不確定該如何準備、不知道達到何種水準才能錄取想讀的大學，以及缺乏相關資源等。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+為了解決這些問題，我想打造一個「特選資訊開源平台」，希望可以把各校特選資訊、歷年榜單還有歷屆特選生們的心得整理起來，讓更多人可以更容易、更輕鬆的查閱他們！除此之外，如果有更多時間的話還希望可以製作讓當屆的特選生們使用的交叉查榜系統。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 設計稿
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+目前的設計稿只有這一頁，不過未來會繼續更新的 ouob
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Design Draft](public/images/design.png)
 
-## Learn More
+## 預期完成時間
 
-To learn more about Next.js, take a look at the following resources:
+沒意外的話希望可以在 9 / 10 月特選前完成並上線，畢竟我自己也很需要這個東西 XD
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- 心得彙整
+  - 透過視覺化的介面、更多更細的 filters 來讓使用者更容易找到自己想要的資訊
+- 歷年榜單
+- 交叉查榜系統（未來可能會有）
+- 各校特選資訊收集
