@@ -9,17 +9,26 @@ export default function Filters() {
       <Combobox
         placeholder="所有大學"
         searchBarPlaceholder="搜尋大學"
-        options={schoolsPlaceholder}
+        options={[{
+          value: "all",
+          label: "所有大學",
+        },...schoolsPlaceholder]}
       />
       <Combobox
         placeholder="所有科系"
         searchBarPlaceholder="搜尋科系"
-        options={majorPlaceholder}
+        options={[{
+          value: "all",
+          label: "所有科系",
+        },...majorPlaceholder]}
       />
       <Combobox
         placeholder="所有組別"
         searchBarPlaceholder="搜尋組別"
-        options={categoriesPlaceholder}
+        options={[{
+          value: "all",
+          label: "所有組別",
+        },...categoriesPlaceholder]}
       />
       <Select>
         <SelectTrigger className="w-[180px]">
