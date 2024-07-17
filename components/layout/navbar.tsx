@@ -31,7 +31,7 @@ function NavbarItem({
   return (
     <Link
       href={href}
-      className="text-lg hover:text-muted-foreground transition-all"
+      className="hover:text-muted-foreground transition-all"
     >
       {children}
     </Link>
